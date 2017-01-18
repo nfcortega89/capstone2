@@ -1,0 +1,15 @@
+{
+  "name": "capstone2",
+  "version": "1.0.0",
+  "description": "Nutrional facts from Yummly recipes will be calculated and paired with Wger to maximize workouts and display remainder caloric intake.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikko Ortega",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "unirest": "^0.5.1"
+  }
+}
