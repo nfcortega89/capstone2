@@ -1,0 +1,9 @@
+language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: HVoDcArYaS1kXkwjvKN6svjM5HQPg4GHZEBxNXV/y/jfXpaItUpaw2uj/T+6GRsOQMK7gMXnJUldk7hp4a49uRelSt3Lc4G5oAi5nza00nuUVp/UkjGpBJy+b0fet6cRCz+hyB0klwBPFbCB7tXnW/ROtO4KubImMTXuL9WO3H1fiIMaBYOL8N/SfBirVhI1EKZ7dnbKA5vBBb1/rRJMVOYaWMe9r5RLzsCKwaw/8eTmO4eGj3ShT08/8qtfZYgjbqYbTCnOKKApZsplStDt+PDwPMUbtHP3kZZXDftNaaptrPhErl8g00vvqVcvgtf+cQDc+U1/rlMYyW5PjwMbvhm/ZvsNbeih0KSqH7hyAexp7V3jfAMlmjeIRju4s72GlkHLV/DOFminhJOrdvZKRpSZt6fsqZVNaCCkRp1XebgcBxLHnsfUXYgIKBsVJx5vyybb+5Qh4V3vvN2u7OEECDHh7qod7y4tvVM21Ut1KUOeZE9BXCxkH0Jf6Re8rQBBMbX9Qb/x7crI8sCszvMlztRd/g4rHWTqIlRYSY0h/V3QSSC04G0cIcvK1IfsnK4eJCwdV20giQ7fv0FVqJTTeXSJWoK9d7zEifdkZjY+eGAiWB0d9c/q2xXVJzaIGk7HwoJ5iDiWHipopSdHU/fQvKfv9PiRP6U8ss9FMkNvMjg=
+  app: limitless-mountain-11507
+  on:
+    repo: nfcortega89/capstone2
