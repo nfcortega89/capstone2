@@ -183,6 +183,9 @@ h1 {
 .ingredients li {
   font-size: 1.5em;
 }
+.recipe-results:hover {
+  cursor: pointer;
+}
 .time {
   font-size: 1.5em;
   color: whitesmoke;
