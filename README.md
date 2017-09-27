@@ -24,7 +24,6 @@ Who’s Hungry is a backend app powered by Yummly API that allows users to searc
   Recipes
     To be able to see recipes, the user simply types and dish of his/her choice and the result is shown on the screen.
 
-<br></br>
 <b>Technology</b>
 
   Frontend
