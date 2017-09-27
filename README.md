@@ -1,4 +1,4 @@
-Airtime is a frontend react app that shows users some of the legal fly-zones in San Diego along with the weather conditions.
+Who’s Hungry is a backend app powered by Yummly API that allows users to search for healthy yet delicious recipes.
 
 
 <b>Getting Started</b>
