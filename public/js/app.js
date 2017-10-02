@@ -34,7 +34,7 @@ function main() {
         console.error('(50)Error: ' + err);
       })
     }
-    $("#food").trigger("reset");
+    $("#food").val('')
   )
   }
   // clones elements for each recipe
