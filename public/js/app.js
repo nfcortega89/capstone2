@@ -57,6 +57,7 @@ function main() {
   var showDiets = function() {
     $(".diets li").on("click", "a", function() {
       $(".jumbotron").show();
+      $("#info").hide();
       $.scrollTo(".jumbotron");
       var url = "/recipes/" + $(this).attr("id");
       $.ajax({
