@@ -5,9 +5,6 @@ function main() {
   var getResults = function() {
     $("#food").on("submit", function(e) {
       e.preventDefault();
-      $("#food").val("");
-      $("body").scrollTo("#results");
-
       // get the input from recipe
       var dishes = $("#dishes").val();
       // console.log('APP.JS', dishes)
