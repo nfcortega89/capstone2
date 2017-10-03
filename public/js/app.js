@@ -34,7 +34,7 @@ function main() {
         console.error('(50)Error: ' + err);
       })
     }
-    $("#food").val('')
+    // $("#food").val('')
     $("body").scrollTo('#results')
   )
   }
