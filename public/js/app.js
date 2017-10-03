@@ -35,7 +35,7 @@ function main() {
       })
     }
     $("#food").val('')
-    $.scrollTo('#results')
+    $("body").scrollTo('#results')
   )
   }
   // clones elements for each recipe
