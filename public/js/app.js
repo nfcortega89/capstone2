@@ -9,7 +9,7 @@ function main() {
       var dishes = $("#dishes").val();
       // console.log('APP.JS', dishes)
       // set input value back to blank
-      $("#dishes").val(null);
+      $("#dishes").val(" ");
       // query strings
       var url = "/recipes?food=" + dishes;
       $(".jumbotron").show();
@@ -33,7 +33,6 @@ function main() {
         .fail(function(err) {
           console.error("(50)Error: " + err);
         });
-      $("#food").val(" ");
       // $.scrollTo("#results");
     });
   };
