@@ -14,6 +14,7 @@ function main() {
       var url = "/recipes?food=" + dishes;
       $(".jumbotron").show();
       $("footer").show();
+      $("#info").hide();
       // make request to server
       $.ajax({
         type: "GET",
@@ -32,6 +33,8 @@ function main() {
         .fail(function(err) {
           console.error("(50)Error: " + err);
         });
+      $("#food").val(" ");
+      // $.scrollTo("#results");
     });
   };
   // clones elements for each recipe
