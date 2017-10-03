@@ -15,6 +15,7 @@ function main() {
       $(".jumbotron").show();
       $("footer").show();
       $("#info").hide();
+      $.scrollTo(".jumbotron");
       // make request to server
       $.ajax({
         type: "GET",
@@ -33,7 +34,6 @@ function main() {
         .fail(function(err) {
           console.error("(50)Error: " + err);
         });
-      $.scrollTo("#results");
     });
   };
   // clones elements for each recipe
@@ -57,6 +57,7 @@ function main() {
   var showDiets = function() {
     $(".diets li").on("click", "a", function() {
       $(".jumbotron").show();
+      $.scrollTo(".jumbotron");
       var url = "/recipes/" + $(this).attr("id");
       $.ajax({
         type: "GET",
