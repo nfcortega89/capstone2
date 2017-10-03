@@ -291,3 +291,12 @@ footer {
   height: 10rem;
   color: #cac9cb;
 }
+#info {
+  position: relative;
+  top: 193px;
+  justify-content: center;
+  display: flex;
+  color: white;
+  font-size: 2em;
+  text-transform: uppercase;
+}
