@@ -33,7 +33,7 @@ function main() {
         .fail(function(err) {
           console.error("(50)Error: " + err);
         });
-      // $.scrollTo("#results");
+      $.scrollTo("#results");
     });
   };
   // clones elements for each recipe
