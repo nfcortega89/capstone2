@@ -15,7 +15,6 @@ function main() {
       $(".jumbotron").show();
       $("footer").show();
       $("#info").hide();
-      $.scrollTo(".jumbotron");
       // make request to server
       $.ajax({
         type: "GET",
@@ -58,7 +57,6 @@ function main() {
     $(".diets li").on("click", "a", function() {
       $(".jumbotron").show();
       $("#info").hide();
-      $.scrollTo(".jumbotron");
       var url = "/recipes/" + $(this).attr("id");
       $.ajax({
         type: "GET",
