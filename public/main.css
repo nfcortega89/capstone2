@@ -301,7 +301,11 @@ footer {
   text-transform: uppercase;
 }
 @media screen and (max-width: 767px) {
-  nav {
+  .navbar,
+  .navbar-toggleable-md,
+  .navbar-inversem,
+  .fixed-top,
+  .bg-inverse {
     display: flex;
     min-height: 50px;
     align-items: baseline;
