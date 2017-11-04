@@ -300,3 +300,67 @@ footer {
   font-size: 2em;
   text-transform: uppercase;
 }
+@media screen and (max-width: 767px) {
+  nav {
+    display: flex;
+    min-height: 50px;
+    align-items: baseline;
+    justify-content: flex-end;
+  }
+  .navbar-brand {
+    font-size: 1em;
+    padding: 0;
+  }
+  .form-inline,
+  .mr-sm-2 {
+    width: 69%;
+  }
+  .banner {
+    height: 27rem;
+  }
+  .banner h1 {
+    font-size: 5em;
+    top: 2.5em;
+  }
+  .diets ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+  }
+  .diets li {
+    margin: 0;
+  }
+  .main {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .container-right {
+    display: flex;
+    height: 100%;
+    overflow: unset;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2em;
+  }
+  .selected {
+    height: 100%;
+    display: block;
+    background: transparent;
+  }
+  .recipe-info {
+    padding-top: 2em;
+    height: 100%;
+    background: rgba(54, 92, 84, 0.69);
+  }
+  .container-left {
+    width: 366px;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+  }
+  .foodsearch h3 {
+    font-size: 2.5em;
+  }
+}
