@@ -280,7 +280,7 @@ footer {
   font-size: 2em;
   text-transform: uppercase;
 }
-@media screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   .navbar,
   .navbar-toggleable-md,
   .navbar-inversem,
