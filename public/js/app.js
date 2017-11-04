@@ -81,8 +81,8 @@ function main() {
     $("#results").on("click", ".recipe-results", function() {
       // use 'this' to get attr of id
       var url = "/recipe/" + $(this).attr("id");
-      $("body").scrollTo(".selected");
       $(".selected").show();
+      $("html, body").scrollTop($(".selected").offset().top);
       $.ajax({
         type: "GET",
         dataType: "json",
